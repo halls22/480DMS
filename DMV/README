@@ -1,1 +1,48 @@
 uhhh hello.
+
+
+// old readme: 
+
+Andrew Hopkins
+CS480
+PA1
+
+To run DRS:
+1. interpret the code:
+javac *.java
+
+2. make sure you have a config file. see config.txt for formatting example
+
+3. ssh into the data servers listed in the config file, and 1 additional machine for the 
+MetaData Server
+
+4. To run MetaData Server:
+Usage: java MetaDataServer <port> <degree of replication>
+
+5. To run Data Server:
+Usage: java DataServer <port>
+
+6. To run Client:
+Usage: java Client <metadata-host> <metadata-port>
+
+	Client commands once client has started:
+	Store:
+		DRS store Usage: store <full path to file> <file name to be used in drs>
+	Retrieve:
+		DRS retrieve Usage: retrieve <file name in drs> <file name to be used in local file system>
+	Status:
+		DRS status Usage: status
+	Exit:
+		DRS exit Usage: exit
+
+
+so for example: 
+java Client lincoln 9000
+>store test.txt a.txt
+>retrieve a.txt test2.txt
+>status
+>exit
+
+this will store the file test.txt as a.txt, retrieve and store it as test2.txt, show the status of the DRS, and exit.
+
+please email with any questions: Andrew.Hopkins@colostate.edu

@@ -1,0 +1,3 @@
+pea.cs.colostate.edu,9153
+bean.cs.colostate.edu,9153
+corn.cs.colostate.edu,9153
