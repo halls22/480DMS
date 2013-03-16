@@ -45,4 +45,3 @@ java Client lincoln 9000
 
 this will store the file test.txt as a.txt, retrieve and store it as test2.txt, show the status of the DRS, and exit.
 
-please email with any questions: Andrew.Hopkins@colostate.edu
