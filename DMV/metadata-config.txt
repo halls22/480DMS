@@ -1,0 +1,2 @@
+Metaserver = bok-choy
+Dataservers = chard, broccoli, spinach
