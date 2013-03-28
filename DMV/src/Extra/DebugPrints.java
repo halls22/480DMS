@@ -11,7 +11,7 @@ public class DebugPrints {
 	
 	public static void debug(String s){
 		if(print_debug_statements)
-			System.out.println(s);
+			System.out.println(s);// hello?cgd
 	}
 	
 	public static void debug(int[] pixels) {
@@ -32,3 +32,4 @@ public class DebugPrints {
 	
 	// TODO: determine the OS and make a call to the terminal
 }
+
