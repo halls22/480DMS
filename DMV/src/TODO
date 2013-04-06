@@ -1,6 +1,18 @@
 TODO
 
-    think of more things todo
+    things that are asked for in the report:
+        - a benchmarking program
+            - i mean.. seriously.. I think maybe this should just be an included 
+            feature. so like.. you can run
+                store 
+                retrive
+                visualization
+                ...
+                we should have "benchmark" that returns times
+        - how to set the software up
+            > I planned on putting the final version in my public folder
+            so we can give them a script that just runs
+                "java ~hallwort/public/setup_dataservice"
     
     Drew:
         work on metadata
@@ -9,4 +21,7 @@ TODO
     Daniel
         look into making the data servers and metadata servers multithreaded
         finish making the pixel visualization
+        
+        
+    soo much shit to do here... honestly.
     
